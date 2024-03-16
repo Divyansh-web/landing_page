@@ -9,7 +9,7 @@
         .header-container {
             display: flex;
             justify-content: space-around;
-            margin:50px;
+            margin: 50px;
         }
 
         .links {
@@ -17,9 +17,61 @@
             justify-content: center;
             gap: 10px;
         }
-        .info-container{
+
+        .info-container {
             display: flex;
             justify-content: space-around;
+        }
+
+        .item-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .items {
+            height: 150px;
+            width: 150px;
+            background-color: white;
+            border: 5px solid blue;
+            border-radius: 10px;
+            margin: 30px;
+        }
+
+        .body-container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .images {
+            width: 180px;
+        }
+
+        .testimonial-container {
+            display: flex;
+            justify-content: center;
+            font-size: 36px;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .testimonial {
+            width: 500px;
+        }
+
+        .action-container{
+            margin: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .action{
+            height: 100px;
+            width: 600px;
+            background-color: blue;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
     </style>
 </head>
@@ -48,6 +100,50 @@
         </div>
     </div>
     </div>
+
+    <div class="body-container">
+        <div class="info1">
+            <p>Some random information</p>
+        </div>
+        <div class="item-container">
+            <div class="images">
+                <div class="items"></div>
+                <p>this is some subtext under an illustration or image.</p>
+            </div>
+            <div class="images">
+                <div class="items"></div>
+                <p>this is some subtext under an illustration or image. </p>
+            </div>
+            <div class="images">
+                <div class="items"></div>
+                <p>this is some subtext under an illustration or image.</p>
+            </div>
+            <div class="images">
+                <div class="items"></div>
+                <p>this is some subtext under an illustration or image.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="testimonial-container">
+        <div class="testimonial">This is an inspiring quote, or a testimonial from a customer. Maybe its just filling up
+            space,
+            or maybe people will actually read it . Who knows? All I know is that it looks nice. - Thor , God of Thunder
+        </div>
+    </div>
+
+    <div class="action-container">
+        <div class="action">
+            <div class="info2">
+                <h3>Call to action! Its time!</h3>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div class="button"><button>Sign up</button>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
