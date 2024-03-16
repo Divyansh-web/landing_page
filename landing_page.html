@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landing page</title>
     <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
         .header-container {
             display: flex;
             justify-content: space-around;
-            margin: 50px;
+            color: white;
+            background-color: #1F2937;
         }
 
         .links {
@@ -21,6 +26,10 @@
         .info-container {
             display: flex;
             justify-content: space-around;
+            background-color: #1F2937;
+            padding:20px;
+            align-items: center;
+            color: #F9FAF8;
         }
 
         .item-container {
@@ -53,7 +62,7 @@
             justify-content: center;
             font-size: 36px;
             text-align: center;
-            margin: 20px;
+            background-color: #E5E7EB;
         }
 
         .testimonial {
@@ -61,17 +70,31 @@
         }
 
         .action-container{
-            margin: 20px;
             display: flex;
             justify-content: space-around;
+            height:150px;
+            align-items: center;
         }
         .action{
             height: 100px;
-            width: 600px;
-            background-color: blue;
+            width: 700px;
+            background-color: #3882F6;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
+            border-radius: 10px;;
+        }
+        .footer-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            height: 100px;
+            background-color:#1F2937;
+        }
+        .info1{
+            font-size: 36px;
+            color: #1F2937;
         }
     </style>
 </head>
@@ -89,8 +112,7 @@
     </div>
     <div class="info-container">
         <div class="info">
-            <h2>This website is awesome.
-            </h2>
+            <p style="font-size: 48px;">This website is awesome.</p>
             <p>This website has some subtext that goes here under the manin title. Its a smaller font and the color is
                 lower contrast.</p>
             <button class="signup">Sign up</button>
@@ -141,6 +163,11 @@
             </div>
             <div class="button"><button>Sign up</button>
             </div>
+        </div>
+    </div>
+    
+    <div class="footer-container">
+        <div class="footer">&copy; 2024 Your Website Name. All rights reserved.
         </div>
     </div>
 
